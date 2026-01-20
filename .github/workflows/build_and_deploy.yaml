@@ -1,0 +1,49 @@
+name: Build and Deploy
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+  id-token: write
+  pages: write
+
+jobs:
+  compile-html:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+    - uses: actions/setup-node@v3
+      with:
+        node-version: 24.8.0
+    - name: Install dependencies
+      run: npm ci
+    - name: Build html
+      run: npm run build-html
+    - name: Upload html file
+      uses: actions/upload-artifact@v4
+      with:
+        name: self-intro
+        path: index.html
+
+  deploy-pages:
+    needs: compile-html
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: self-intro
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
