@@ -28,14 +28,6 @@ jobs:
       run: npm ci
     - name: Build html
       run: npm run build-html
-
-    # New step: Prepare only the necessary files for deployment
-    - name: Prepare deployment directory
-      run: |
-        mkdir public
-        cp index.html public/
-        cp -r assets public/
-
     - name: Upload Pages artifact
       uses: actions/upload-pages-artifact@v3 # Use the Pages-specific action
       with:
