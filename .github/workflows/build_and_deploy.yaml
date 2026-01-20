@@ -20,32 +20,37 @@ jobs:
     steps:
     - name: Checkout repository
       uses: actions/checkout@v4
-    - uses: actions/setup-node@v3
+    - name: Setup Node
+      uses: actions/setup-node@v4  # Upgraded to v4
       with:
         node-version: 24.8.0
     - name: Install dependencies
       run: npm ci
     - name: Build html
       run: npm run build-html
-    - name: Upload html file
-      uses: actions/upload-artifact@v4
+
+    # New step: Prepare only the necessary files for deployment
+    - name: Prepare deployment directory
+      run: |
+        mkdir public
+        cp index.html public/
+        cp -r assets public/
+
+    - name: Upload Pages artifact
+      uses: actions/upload-pages-artifact@v3 # Use the Pages-specific action
       with:
-        name: github-pages
-        path: index.html
+        path: public # Upload the folder containing index.html and assets
 
   deploy-pages:
     needs: compile-html
+    permissions:
+      pages: write
+      id-token: write
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
-      - name: Configure Pages
-        uses: actions/configure-pages@v4
-      - name: Download artifact
-        uses: actions/download-artifact@v4
-        with:
-          name: github-pages
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v4 # This will now find the 'github-pages' artifact automatically
