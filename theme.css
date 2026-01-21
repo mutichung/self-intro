@@ -2,6 +2,27 @@
 
 @import 'default';
 
+@font-face {
+    font-family: 'Maple Mono NF CN WOFF2';
+    src: url('./assets/fonts/MapleMono-NF-CN-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Maple Mono NF CN WOFF2';
+    src: url('./assets/fonts/MapleMono-NF-CN-Bold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Maple Mono NF CN WOFF2';
+    src: url('./assets/fonts/MapleMono-NF-CN-Italic.woff2') format('woff2');
+    font-weight: normal;
+    font-style: italic;
+}
+
 :root {
     /* color definition from One Dark Pro */
     --bg: #282c34;
@@ -20,7 +41,10 @@
     --comment: #7f848e;
     background-color: var(--bg);
     color: var(--fg);
-    font-family: 'Maple Mono NF CN', 'FiraCode Nerd Font', 'Fira Code', 'Source Code Pro', monospace;
+}
+
+section {
+    font-family: 'Maple Mono NF CN WOFF2', 'FiraCode Nerd Font', 'Fira Code', 'Source Code Pro', monospace;
 }
 
 img[alt~="center"] {
