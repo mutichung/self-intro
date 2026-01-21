@@ -16,13 +16,6 @@
     font-style: normal;
 }
 
-@font-face {
-    font-family: 'Maple Mono NF CN WOFF2';
-    src: url('./assets/fonts/MapleMono-NF-CN-Italic.woff2') format('woff2');
-    font-weight: normal;
-    font-style: italic;
-}
-
 :root {
     /* color definition from One Dark Pro */
     --bg: #282c34;
@@ -106,7 +99,7 @@ h6 {
 
 strong,
 b {
-    color: var(--green);
+    color: var(--blue);
     font-weight: bold;
 }
 
@@ -130,11 +123,14 @@ section::after {
 
 .matrix {
     display: flex;
+    flex-direction: column;
+    /* Stacks the rows vertically */
     gap: 20px;
 }
 
 .row {
     display: flex;
+    /* Keeps columns horizontal */
     gap: 20px;
     /* Space between columns */
     flex: 1;

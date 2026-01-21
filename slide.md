@@ -47,7 +47,7 @@ Design chips for **vision** applications and **edge-AI**.
 
 ![h:380 center opacity:0.85 rounded](https://www.ambarella.com/wp-content/uploads/slide2.png)
 
-<!-- _footer: "https://www.ambarella.com/blog/the-story-of-cvflow/" -->
+<!-- _footer: "Image from [Ambarella blog post](https://www.ambarella.com/blog/the-story-of-cvflow/)" -->
 
 ---
 
@@ -59,7 +59,6 @@ Design chips for **vision** applications and **edge-AI**.
 ![invert height:100px center brightness:0.65](assets/compress.png)
 
 - Efficiency: **pruning** & **quantization**.
--
 - Research & design algorithms & recipes.
 - Develop libraries & SDKs.
 - Support requests from customers.
@@ -71,13 +70,15 @@ Design chips for **vision** applications and **edge-AI**.
 
 ![invert height:100px center brightness:0.8 grayscale](assets/nn.png)
 
-- Keep up with latest advancements to ensure hardware support.
+- Ensure hardware support on latest advancements.
   - Model architectures
   - Data formats
 - Report to CTO during weekly meetings.
 :::
 
 ::::
+
+<!-- _footer: "Icons created by [Freepik](https://www.flaticon.com/free-icon/compression_1387656) and [dmitrychae](https://www.flaticon.com/free-icon/neural-net_15680569) on Flaticon" -->
 
 ---
 
@@ -90,12 +91,20 @@ Design chips for **vision** applications and **edge-AI**.
 ::: column
 #### Pruning Library
 
-- First end-to-end project.
-
+- First end-to-end project
+- Software development & Python skills
+- System design
+- Document & example
+- CI/CD
 :::
 
 ::: column
-asdf
+#### Compression-Aware Training for LLMs
+
+- Entry to LLMs and `transformers`
+- Resource limitations in mind
+  - Distributed training, DeepSpeed, FSDP
+- Fast-pace MVP
 :::
 
 ::::
@@ -103,11 +112,22 @@ asdf
 :::: row
 
 ::: column
-asdf
+#### Activation Sparsity
+
+- First self-lead research project
+- Literature study
+- Algorithm implementation
+- Experiment design & execution
+- PoC
 :::
 
 ::: column
-asdf
+#### Post-Training Compression
+
+- Ongoing, long-term task
+- Develop quantization recipes
+- Transformation-based quantization
+- Pushing for SOTA
 :::
 
 ::::
@@ -115,77 +135,18 @@ asdf
 
 ---
 
-### 1. Model optimization w.r.t. hardware prior to compilation
+## Personal
 
-- Adjust weights, do fine-tuning, make architectural changes.
-- Study, experiment, and design compression algorithms & recipes, e.g., pruning, quantization, etc.
-- Develop compression libraries and SDKs.
-- Support requests from important customers and internal teams on challenging model compression tasks.
-
----
-
-### 2. Architectural Studies
-
-- Make sure new architectures can be run efficiently on our chips.
-- Understand what specialized operations need to be supported on next-gen design.
-- Reports directly to CTO via weekly meetings.
+- **Motivation**
+  1. Partner is relocating to Eindhoven.
+- **Interests**
+  - Music => jazz, neo soul
+  - Casual gaming
+  - Tech enthusiast / nerd
 
 ---
 
-## Projects Overview
-
-- Pruning library: first end-to-end project.
-  - Software development & python skills.
-  - System design.
-  - Document & example.
-  - CI/CD
-- Compression-aware training for LLMs
-  - `transformers` ecosystem.
-  - Distributed training, DeepSpeed, FSDP.
-- Activation Sparsity
-  - Research project
-  - Literature study, algorithm implementation, experiment design & execution
-  - PoC, MVP
-- Post-Training Compression
-  - Develop quantization recipe.
-  - Transformation-based quantization.
-
----
-
----
-
-- Muti Chung (鍾慕提), software engineer at Ambarella.
-- Ambarella products: video applications, AI acceleration, e.g., CNN, VLM.
-    - Consumer devices: GoPro, DJI, Insta360.
-    - Automotive: L2+ to L4.
-    - IoT applications: security cameras.
-- Top-level/Frontline of the AI deployment software stack.
-
-    > Maybe use official diagram?
-
-    1. Architectural studies: make sure the architectures can be run efficiently on our chips, or understand what specialized operations need to be supported on next-gen design.
-        - My team reports directly to CTO via weekly meetings.
-    2. Optimize model w.r.t. hardware prior to any compilation, i.e., at the python/pytorch level.
-        - Adjust weights, do fine-tuning, make architectural changes.
-        - Study, experiment, and design compression algorithms & recipes, e.g., pruning, quantization, etc.
-        - Develop compression libraries and SDKs.
-        - Support requests from important customers and internal teams on challenging model compression tasks.
-- Past projects overview
-    - Pruning library: first end-to-end project.
-        - Software development & python skills.
-        - System design.
-        - Document & example.
-        - CI/CD
-    - Compression-aware training for LLMs
-        - `transformers` ecosystem.
-        - Distributed training, DeepSpeed, FSDP.
-    - Activation Sparsity
-        - Research project
-        - Literature study, algorithm implementation, experiment design & execution
-        - PoC, MVP
-    - Post-Training Compression
-        - Develop quantization recipe.
-        - Transformation-based quantization.
-- Personal
-    - Motivation
-    - Interests
+```python
+def goodbye():
+  print("Thank you for having me!")
+```
