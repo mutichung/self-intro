@@ -25,7 +25,6 @@ Nice to meet you :p
   - M.S. in Robotics @ UMich
 - **Current**: Software Engineer @ Ambarella
 
-
 ---
 
 ### Ambarella
@@ -54,6 +53,7 @@ Design chips for **vision** applications and **edge-AI**.
 :::: row
 
 ::: column
+
 ### Model Optimization
 
 ![invert height:100px center brightness:0.65](assets/compress.png)
@@ -66,6 +66,7 @@ Design chips for **vision** applications and **edge-AI**.
 :::
 
 ::: column
+
 ### Literature Studies
 
 ![invert height:100px center brightness:0.8 grayscale](assets/nn.png)
@@ -74,6 +75,7 @@ Design chips for **vision** applications and **edge-AI**.
   - Model architectures
   - Data formats
 - Report to CTO during weekly meetings.
+
 :::
 
 ::::
@@ -89,6 +91,7 @@ Design chips for **vision** applications and **edge-AI**.
 :::: row
 
 ::: column
+
 #### Pruning Library
 
 - First end-to-end project
@@ -96,15 +99,18 @@ Design chips for **vision** applications and **edge-AI**.
 - System design
 - Document & example
 - CI/CD
+
 :::
 
 ::: column
+
 #### Compression-Aware Training for LLMs
 
 - Entry to LLMs and `transformers`
 - Resource limitations in mind
   - Distributed training, DeepSpeed, FSDP
 - Fast-pace MVP
+
 :::
 
 ::::
@@ -112,6 +118,7 @@ Design chips for **vision** applications and **edge-AI**.
 :::: row
 
 ::: column
+
 #### Activation Sparsity
 
 - First self-lead research project
@@ -119,15 +126,18 @@ Design chips for **vision** applications and **edge-AI**.
 - Algorithm implementation
 - Experiment design & execution
 - PoC
+
 :::
 
 ::: column
+
 #### Post-Training Compression
 
 - Ongoing, long-term task
 - Develop quantization recipes
 - Transformation-based quantization
 - Pushing for SOTA
+
 :::
 
 ::::
@@ -138,7 +148,7 @@ Design chips for **vision** applications and **edge-AI**.
 ## Personal
 
 - **Motivation**
-  1. Partner is relocating to Eindhoven.
+  - Partner is relocating to Eindhoven.
 - **Interests**
   - Music => jazz, neo soul
   - Casual gaming

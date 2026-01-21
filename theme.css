@@ -103,6 +103,19 @@ b {
     font-weight: bold;
 }
 
+a {
+    color: var(--cyan);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer a {
+    color: var(--cyan);
+}
+
 section::after {
     content: attr(data-marpit-pagination) ' / ' attr(data-marpit-pagination-total);
     font-size: small;
