@@ -148,13 +148,31 @@ Design chips for **vision** applications and **edge-AI**.
 ## Why You
 
 - **Life**
-  - Partner is relocating to Eindhoven.
+  - Partner is relocating to **Eindhoven**.
   - Planning to permanently move to the Netherlands.
   - Seeking to pursue my career at the Brainport.
-- **Work**: desire for end-to-end ownership
+- **Work**: desire for **end-to-end ownership**
   - Interest in low-level: compilation, IR, dataflow.
   - Hardware-software codesign.
-  - Work with the greatest minds.
+  - Fast-pace, pragmatic culture.
+
+<!--
+# Why Axelera
+
+## Life
+
+* Signifies my stability
+* I don't want to get my visa via marriage and become a house husband.
+* I like my job / tech / keep up with latest advancements.
+
+## Work
+
+* Upgrade my career.
+* As an algorithm engineer
+* Key to successful edge-AI
+* Amba: medium-sized; large corp hassle
+* Get my answer / get my hands dirty
+-->
 
 ---
 
