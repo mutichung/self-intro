@@ -150,7 +150,11 @@ Design chips for **vision** applications and **edge-AI**.
 - **Life**
   - Partner is relocating to Eindhoven.
   - Planning to permanently move to the Netherlands.
-- **Work**
+  - Seeking to pursue my career at the Brainport.
+- **Work**: desire for end-to-end ownership
+  - Interest in low-level: compilation, IR, dataflow.
+  - Hardware-software codesign.
+  - Work with the greatest minds.
 
 ---
 
