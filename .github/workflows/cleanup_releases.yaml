@@ -1,0 +1,25 @@
+name: Cleanup Releases
+
+on:
+  delete:
+
+jobs:
+  cleanup-branch-releases:
+    if: github.event.ref_type == 'branch'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Delete releases for deleted branch
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          BRANCH="${{ github.event.ref }}"
+          BRANCH="${BRANCH//\//-}"
+          echo "Cleaning up releases for deleted branch: $BRANCH"
+          gh release list --repo ${{ github.repository }} --json tagName -q ".[].tagName" | \
+            grep "^${BRANCH}-" | \
+            while read -r tag; do
+              echo "Deleting release and tag: $tag"
+              gh release delete "$tag" --repo ${{ github.repository }} --yes --cleanup-tag || true
+            done
