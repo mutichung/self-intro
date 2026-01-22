@@ -149,10 +149,8 @@ Design chips for **vision** applications and **edge-AI**.
 
 - **Life**
   - Partner is relocating to Eindhoven.
-  - Planning on moving to the Netherlands permanently.
-  - Still want to pursue my own career.
+  - Planning to permanently move to the Netherlands.
 - **Work**
-  - Desire for end-to-end ownership.
 
 ---
 
@@ -164,6 +162,7 @@ Design chips for **vision** applications and **edge-AI**.
   - Model training
   - Evaluation
   - Edge-AI deployment
+- Bridges the gap between paper and production.
 
 ---
 
