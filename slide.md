@@ -92,13 +92,12 @@ Design chips for **vision** applications and **edge-AI**.
 
 ::: column
 
-#### Pruning Library
+#### Cross-Framework Pruning Library
 
 - First end-to-end project
 - Software development & Python skills
 - System design
-- Document & example
-- CI/CD
+- Documentation & CI/CD
 
 :::
 
@@ -107,9 +106,9 @@ Design chips for **vision** applications and **edge-AI**.
 #### Compression-Aware Training for LLMs
 
 - Entry to LLMs and `transformers`
+- Fast-pace MVP
 - Resource limitations in mind
   - Distributed training, DeepSpeed, FSDP
-- Fast-pace MVP
 
 :::
 
@@ -141,18 +140,30 @@ Design chips for **vision** applications and **edge-AI**.
 :::
 
 ::::
+
 :::::
 
 ---
 
-## Personal
+## Why You
 
-- **Motivation**
+- **Life**
   - Partner is relocating to Eindhoven.
-- **Interests**
-  - Music => jazz, neo soul
-  - Casual gaming
-  - Tech enthusiast / nerd
+  - Planning on moving to the Netherlands permanently.
+  - Still want to pursue my own career.
+- **Work**
+  - Desire for end-to-end ownership.
+
+---
+
+## Why Me
+
+- Expertise in **model compression**.
+- Delivers **production-grade software**.
+- Domain knowledge across
+  - Model training
+  - Evaluation
+  - Edge-AI deployment
 
 ---
 
@@ -160,3 +171,9 @@ Design chips for **vision** applications and **edge-AI**.
 def goodbye():
   print("Thank you for having me!")
 ```
+
+<!-- _footer: "
+* Created with markdown using [Marp](https://github.com/marp-team/marp).\n
+* Color theme from [onedarkpro.nvim](https://github.com/olimorris/onedarkpro.nvim).\n
+* Fonts by [Maple Mono](https://github.com/subframe7536/maple-font).
+"-->
