@@ -122,11 +122,11 @@ jobs:
         GH_TOKEN: ${{ github.token }}
       run: |
         BRANCH="${GITHUB_REF_NAME//\//-}"
-        gh release list --json tagName -q ".[].tagName" | \
+        gh release list --repo ${{ github.repository }} --json tagName -q ".[].tagName" | \
           grep "^${BRANCH}-" | \
           while read -r tag; do
             echo "Deleting release and tag: $tag"
-            gh release delete "$tag" --yes --cleanup-tag || true
+            gh release delete "$tag" --repo ${{ github.repository }} --yes --cleanup-tag || true
           done
 
     - name: Release
