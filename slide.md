@@ -12,8 +12,6 @@ math: mathjax
 
 Nice to meet you :p
 
-![bg right:25% contain](assets/profile_pic.png)
-
 ---
 
 ## Basics
@@ -24,6 +22,8 @@ Nice to meet you :p
   - B.S. in Mechanical Engineering @ NTU
   - M.S. in Robotics @ UMich
 - **Current**: Software Engineer @ Ambarella
+
+![bg right:20% contain](assets/profile_pic.png)
 
 ---
 
@@ -162,7 +162,7 @@ Design chips for **vision** applications and **edge-AI**.
   - Model training
   - Evaluation
   - Edge-AI deployment
-- Bridges the gap between paper and production.
+- Bridges the gap between research and production.
 
 ---
 
