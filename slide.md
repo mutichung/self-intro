@@ -150,7 +150,30 @@ Design chips for **vision** applications and **edge-AI**.
 - **Life**
   - Partner is relocating to Eindhoven.
   - Planning to permanently move to the Netherlands.
+  - Motivated to advance my own career.
 - **Work**
+  - Seeking visible impact
+  - Scale & diversity
+  - Real-world validation
+
+<!--
+# Why Qualcomm
+
+## Life
+
+* Signifies my stability
+* I don't want to get my visa via marriage and become a house husband.
+* I like my job / tech / keep up with latest advancements.
+* Upgrade my career.
+
+## Work
+
+* Ambarella is a rather-small company
+* Sometimes struggle to see impact
+* Qualcomm, one of the largest, top chip maker, with a wide range of devices and applications.
+* My work is able to reach millions of global users across Qualcomm’s vast ecosystem, including high-end mobile, automotive, and AR/VR.
+* Driven to see my optimizations and tools leave the lab and drive performance on real-world, hardware-constrained devices.
+-->
 
 ---
 
