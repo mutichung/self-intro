@@ -168,11 +168,10 @@ Design chips for **vision** applications and **edge-AI**.
 
 ## Work
 
-* Ambarella is a rather-small company
-* Sometimes struggle to see impact
-* Qualcomm, one of the largest, top chip maker, with a wide range of devices and applications.
-* My work is able to reach millions of global users across Qualcomm’s vast ecosystem, including high-end mobile, automotive, and AR/VR.
-* Driven to see my optimizations and tools leave the lab and drive performance on real-world, hardware-constrained devices.
+* Ambarella small; struggle to see impact
+* Qualcomm big, diverse devices & platforms
+* Opportunity to reach millions of users & applications.
+* Leave lab and drive performance on real-world, hardware-constrained devices.
 -->
 
 ---
@@ -185,7 +184,7 @@ Design chips for **vision** applications and **edge-AI**.
   - Model training
   - Evaluation
   - Edge-AI deployment
-- Bridges the gap between research and production.
+- Bridges the gap between **research** and **production**.
 
 ---
 
