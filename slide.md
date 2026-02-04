@@ -169,9 +169,10 @@ Design chips for **vision** applications and **edge-AI**.
 ## Work
 
 * Ambarella small; struggle to see impact
-* Qualcomm big, diverse devices & platforms
+* Well-established, diverse devices & platforms.
 * Opportunity to reach millions of users & applications.
 * Leave lab and drive performance on real-world, hardware-constrained devices.
+* Had the chance to interview & received offer last October.
 -->
 
 ---
