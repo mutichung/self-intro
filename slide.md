@@ -148,9 +148,26 @@ Design chips for **vision** applications and **edge-AI**.
 ## Why You
 
 - **Life**
-  - Partner is relocating to Eindhoven.
-  - Planning to permanently move to the Netherlands.
+  - Partner is relocating to Eindhoven, NL.
+  - Wanting to stay closer to her (distance, timezone).
+  - Motivated to advance my own career.
 - **Work**
+  - Work at the cutting-edge with the greatest minds.
+  - Passion in robotics.
+  - Visible impact to the real world.
+
+<!--
+
+## Work
+
+- Why NVIDIA?
+  - Who doesn't want to work for NVIDIA?
+  - Enables this entire decade of AI and deep learning era.
+- Why Cosmos?
+  - I have my roots in robotics / mechanical engineering / physical world.
+  - I have been keeping an eye on AI advancements in robotics, e.g. diffusion policy, LBM, Waymo World Model, flow matching, etc.
+
+-->
 
 ---
 
